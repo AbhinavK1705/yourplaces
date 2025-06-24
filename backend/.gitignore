@@ -1,0 +1,21 @@
+# Node modules
+node_modules/
+
+# Environment variables
+.env
+
+# Log files
+logs/
+*.log
+npm-debug.log*
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# Uploads (✅ keep the folder, ignore the contents)
+uploads/images/*
+!uploads/images/.gitkeep
+
+# VSCode settings (optional, if you use VSCode)
+.vscode/
